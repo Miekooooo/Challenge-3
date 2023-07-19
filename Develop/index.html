@@ -15,10 +15,12 @@
       <div class="card">
         <div class="card-header">
           <h2>Generate a Password</h2>
+            <div>
+              <h3>Password length must be at least 8 characters and less than 128</h3>
+            </div>
         </div>
         <div class="card-body">
           <textarea
-            readonly
             id="password"
             placeholder="Your Secure Password"
             aria-label="Generated Password"
@@ -27,8 +29,32 @@
         <div class="card-footer">
           <button id="generate" class="btn">Generate Password</button>
         </div>
+        <div class="your-password">
+          <div class="card-header2">
+        </div>
+          <div>
+            <h2>Your new Password</h2>
+          </div>
+          <div class="card-body2">
+            <textarea
+              id="New password"
+            ></textarea>
+          </div>
+        </div>
       </div>
     </div>
     <script src="script.js"></script>
   </body>
+  <body>
+    <div class="dropdown">
+        <button onclick="toggleDropdown()" class="dropbtn">Menu</button>
+        <div id="dropdownContent" class="dropdown-content">
+            <a href="#">lowercase</a>
+            <a href="#">uppercase</a>
+            <a href="#">numeric</a>
+            <a href="#">special characters</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
 </html>
