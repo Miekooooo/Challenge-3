@@ -16,6 +16,7 @@ This application features a easy and simple solution to generating a random pass
 
 ![Alt text](<CSS Variables.PNG>)
 ![Alt text](<JS generator logic.PNG>)
+
 ## Installation
 
 Could be used as a alternative password when user doesn't want to create their own.
