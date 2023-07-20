@@ -1,4 +1,14 @@
-var 
+:root {
+  --Background-C: #575757;
+  /* header variables */
+  --Header-C: #ffffff;
+  /* card variables */
+  --Card-C: #ffffff;
+  --Card-Text: #575757;
+  /* button variables */
+  --Button-C: #af086f;
+  --Button-T: #ffffff;
+}
 
 *,
 *::before,
@@ -16,7 +26,7 @@ body,
 
 body {
   font-family: sans-serif;
-  background-color: #575757;
+  background-color: var(--Background-C);
 }
 
 .wrapper {
@@ -29,15 +39,15 @@ header {
   text-align: center;
   padding: 20px;
   padding-top: 0px;
-  color: #ffffff;
+  color: var(--Header-C);
 }
 
 .card {
-  background-color: #ffffff;
+  background-color: var(--Card-C);
   border-radius: 5px;
   border-width: 1px;
   box-shadow: #00000026 0px 2px 8px 0px;
-  color: #575757;
+  color: var(--Card-Text);
   font-size: 18px;
   margin: 0 auto;
   max-width: 800px;
@@ -76,11 +86,11 @@ header {
 
 .btn {
   border: none;
-  background-color: #af086f;
+  background-color: var(--Button-C);
   border-radius: 25px;
   box-shadow: #0000001a 0px 1px 6px 0px #00000033 0px 1px 1px
     0px;
-  color: #ffffff;
+  color: var(--Button-T);
   display: inline-block;
   font-size: 22px;
   line-height: 22px;

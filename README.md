@@ -12,6 +12,10 @@ A password generator using lowercase,uppercase, special characters, and numbers 
 
 This application features a easy and simple solution to generating a random password under certain given parameters.
 
+## Screenshots
+
+![Alt text](<CSS Variables.PNG>)
+![Alt text](<JS generator logic.PNG>)
 ## Installation
 
 Could be used as a alternative password when user doesn't want to create their own.
