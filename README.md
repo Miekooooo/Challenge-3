@@ -1,4 +1,17 @@
 # Challenge-3
+
+## Website link
+
+
+
+## Instructions
+1. Click "Generate Password"
+2. Enter numerical length between 8 and 128
+3. Prompt lowercase characters OK / Cancel
+4. Prompt upppercase characters OK / Cancel
+5. Prompt numeric characters OK / Cancel
+6. Prompt special characters OK / Cancel
+
 ## Description
 
 A password generator using lowercase,uppercase, special characters, and numbers that can be between 8 and 128 characters.
